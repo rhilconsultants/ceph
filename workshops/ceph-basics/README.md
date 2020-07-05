@@ -1,4 +1,5 @@
 # Ceph Basics Workshop
+
 This workshop will walk through Ceph's basics in all levels (from the RADOS level to the application level) to create basic knowledge across all Ceph offerings.
 
 ## Prerequisites
