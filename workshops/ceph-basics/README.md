@@ -31,7 +31,7 @@ This workshop will walk through Ceph's basics in all levels (from the RADOS leve
 - [Exercise 1 - Deploying the lab environemnt using Vagrant](./1-deploying-ceph-vagrant/)
 - [Exercise 2 - RADOS engine overview](./2-ceph-rados-overview/)
 - [Exercise 3 - Getting familiar with Ceph's cluster components](./3-cluster-components/)
-- [Exercise 4 - Intercating with Ce[h's different clients]](./4-ceph-clients/)
+- [Exercise 4 - Intercating with Ceph's different clients]](./4-ceph-clients/)
 - [Exercise 5 - Using Ceph's MGR modules](./5-mgr-modules/)
-- [Exercise 6 - Using rook-ceph for Deploying Ceph on Openshift CRC](./5-rook-ceph/)
+- [Exercise 6 - Using rook-ceph for Deploying Ceph on Openshift CRC](./6-rook-ceph/)
 
