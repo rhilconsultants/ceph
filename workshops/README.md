@@ -13,11 +13,11 @@ This workshop will walk through Ceph's basics in all levels (from the RADOS leve
   
 * Ansible 2.8 
   * For RHEL/Fedora:
-    * subscription-manager repos --enable ansible-2.8-for-rhel-8-x86_64-rpms && dnf install -y ansible
-    * ansible --version 
+    * `subscription-manager repos --enable ansible-2.8-for-rhel-8-x86_64-rpms && dnf install -y ansible`
+    * `ansible --version`
   * For mac: 		
-    * pip3 install --upgrade ansible==2.8
-    * ansible --version
+    * `pip3 install --upgrade ansible==2.8`
+    * `ansible --version`
     
 * Code Ready Containers 
   * https://cloud.redhat.com/openshift/install/crc/installer-provisioned
