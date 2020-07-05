@@ -1,32 +1,25 @@
-# Ceph PS Repo
+# Ceph Basics Workshop
+This workshop will walk through Ceph's basics in all levels (from the RADOS level to the application level) to create basic knowledge across all Ceph offerings.
 
-This repository is aimed at collecting all relevant links and information for IL PS knowledge sharing.   
+## Prerequisites
 
-## Repo Contents Structure
+* Vagrant 2.2.7
+  * Install Virtualbox/Libvirt/Parallels provider
+  * `Vagrant box add generic/rhel7` (will be faster)
 
-This section explains the desired directory structure and repo tree that should be implemented.  Note that if the relevant directory or file does not exist yet, then please create based on the following tree outline:
+* Python3
+  * `Python3 --version`
 
-```
-ceph\workshops
-ceph\usecases
-ceph\featureReference
-ceph\tools
-```
+* ansible >= 2.8
+  * For RHEL/Fedora:
+    * `subscription-manager repos --enable ansible-2.8-for-rhel-8-x86_64-rpms && dnf install -y ansible`
+    * `ansible --version`
 
-## Upload Guidlines
-1. Any directories uploaded should include a README.md regarding the contents
-2. Links to external documents and git repos are encouraged
-3. Information regarding features or external tools should be concise and include a link to the tool/repo/blog etc.
-
-## How to add items
-
-The following is the procedure on how to add items to the repo.  This is based on git practicies in order to colloborate correctly on documents etc
-
-```
-1. Create a branch of the repo
-2. Make the changes/additions that you want
-3. Commit the changes to your branch
-4. Enter a Pull request
-5. Contact another team member to review and perform the merge
-6. Delete branch (or insure to update branch from master before making next changes/additions)
-```
+  * For mac:
+    * `pip3 install --upgrade ansible==2.8`
+    * `ansible --version`
+  
+* Code Ready Containers
+  * https://cloud.redhat.com/openshift/install/crc/installer-provisioned
+  * Download tar.xz file and the pull secret
+  * Add binary file to your PATH
