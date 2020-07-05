@@ -2,7 +2,7 @@
 
 This exercise will walk you through the different mgr modules. You could see the Dashboard (that has turned into a RW and can be used as operational GUI), the Prometheus module the integrated with `cephmetrics` (now part of the deployment out of the box) and the balancer module. 
 
-**Note: ** ‘cephmetrics’ and Dashboard will be presented  by the instructor as they are more a GUI exercises 
+**Note:** ‘cephmetrics’ and Dashboard will be presented  by the instructor as they are more a GUI exercises 
 
 ## Balancer 
 
@@ -47,13 +47,13 @@ The upmap mode will switch between pgs in a given OSD to create a better distrib
 Set balancer module off and on:
 
 ```bash
-$ Ceph balancer off && ceph balancer on 
+$ ceph balancer off && ceph balancer on 
 ```
 
 Use `ceph osd df` command to verify pgs are evenly distributed: 
 
 ```bash
-$ceph osd df 
+$ ceph osd df 
 
 ID CLASS WEIGHT  REWEIGHT SIZE    RAW USE DATA    OMAP META  AVAIL   %USE VAR  PGS STATUS 
  0   hdd 0.04790  1.00000  49 GiB 1.0 GiB  29 MiB  0 B 1 GiB  48 GiB 2.10 1.00  40     up 

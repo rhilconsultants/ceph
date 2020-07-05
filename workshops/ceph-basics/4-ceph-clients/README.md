@@ -192,7 +192,7 @@ Inodes: Total: 655360     Free: 655348
 
 ## Ceph Filesystem 
 
-**Note: ** CephFS will be automatically created for you within the cluster deployment.
+**Note:** CephFS will be automatically created for you within the cluster deployment.
 
 Verify that the MDS is active (this daemon holds the metadata regarding the location of the CephFS files created):
 
