@@ -7,19 +7,15 @@ This workshop will walk through Ceph's basics in all levels (from the RADOS leve
 * Vagrant 2.2.7
   * Install Virtualbox/Libvirt/Parallels provider
   * `Vagrant box add generic/rhel7` (will be faster)
-
 * Python3
   * `Python3 --version`
-
 * ansible >= 2.8
   * For RHEL/Fedora:
     * `subscription-manager repos --enable ansible-2.8-for-rhel-8-x86_64-rpms && dnf install -y ansible`
     * `ansible --version`
-
   * For mac:
     * `pip3 install --upgrade ansible==2.8`
     * `ansible --version`
-  
 * Code Ready Containers
   * https://cloud.redhat.com/openshift/install/crc/installer-provisioned
   * Download tar.xz file and the pull secret
@@ -35,3 +31,6 @@ This workshop will walk through Ceph's basics in all levels (from the RADOS leve
 - [Exercise 5 - Using Ceph's MGR modules](./5-mgr-modules/)
 - [Exercise 6 - Using rook-ceph for Deploying Ceph on Openshift CRC](./6-rook-ceph/)
 
+## Decks 
+
+The deck for this particular can be found [here](https://drive.google.com/file/d/1Hx7GJ1bjT3XjEejQ-SN_mm-2t_1iMIcn/view?usp=sharing)
